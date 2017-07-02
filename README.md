@@ -9,11 +9,11 @@ Docker Image for H2o™ Sparkling Water® on Apache™ Spark® Master/Worker Nod
 H2o™ Sparkling Water® provides transparent integration for the H2O engine and its
 machine learning algorithms into the Spark platform, enabling:
 
-* Use of H2o™ algorithms in Spark workflow
+* Use of H2o™ algorithms in Spark workflow
 * Transformation between H2O and Spark data structures
 * Use of Apache™ Spark® RDDs and DataFrames as input for H2o™ algorithms
-* Use of H2OFrames as input for MLlib algorithms
-* Transparent execution of H2o™ Sparkling Water® applications on top of Apache™ Spark®
+* Use of H2OFrames as input for MLlib algorithms
+* Transparent execution of H2o™ Sparkling Water® applications on top of Apache™ Spark®
 
 
 Here some more info on H2o™ Sparkling Water® :
