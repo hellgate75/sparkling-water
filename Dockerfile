@@ -1,4 +1,4 @@
-FROM hellgate75/apache-spark:2.1.1
+FROM hellgate75/apache-spark
 
 # maintainer details
 MAINTAINER Fabrizio Torelli <hellgate75@gmail.com>
