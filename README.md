@@ -1,4 +1,4 @@
-# Apache™ Spark® Docker image
+# H2O™ Sparkling Water® Docker image
 
 
 Docker Image for H2o™ Sparkling Water® on Apache™ Spark® Master/Worker Node. This Docker image provides Java, Scala, Python and R execution environment.
@@ -337,4 +337,4 @@ In order to access to Apache™ Spark® web console you can use a web browser an
 
 ### License ###
 
-[LGPL 3](/LICENSE)
+[LGPL 3](https://github.com/hellgate75/sparkling-water/blob/master/LICENSE)
