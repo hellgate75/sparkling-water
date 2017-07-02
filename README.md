@@ -1,4 +1,4 @@
-# Apache™ Spark® Docker image
+# H2O™ Sparkling Water® Docker image
 
 
 Docker Image for H2o™ Sparkling Water® on Apache™ Spark® Master/Worker Node. This Docker image provides Java, Scala, Python and R execution environment.
@@ -9,11 +9,11 @@ Docker Image for H2o™ Sparkling Water® on Apache™ Spark® Master/Worker Nod
 H2o™ Sparkling Water® provides transparent integration for the H2O engine and its
 machine learning algorithms into the Spark platform, enabling:
 
-* Use of H2o™ algorithms in Spark workflow
+* Use of H2o™ algorithms in Spark workflow
 * Transformation between H2O and Spark data structures
 * Use of Apache™ Spark® RDDs and DataFrames as input for H2o™ algorithms
-* Use of H2OFrames as input for MLlib algorithms
-* Transparent execution of H2o™ Sparkling Water® applications on top of Apache™ Spark®
+* Use of H2OFrames as input for MLlib algorithms
+* Transparent execution of H2o™ Sparkling Water® applications on top of Apache™ Spark®
 
 
 Here some more info on H2o™ Sparkling Water® :
@@ -337,4 +337,4 @@ In order to access to Apache™ Spark® web console you can use a web browser an
 
 ### License ###
 
-[LGPL 3](/LICENSE)
+[LGPL 3](https://github.com/hellgate75/sparkling-water/blob/master/LICENSE)
