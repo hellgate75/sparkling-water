@@ -1,0 +1,15 @@
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C6DAEA80
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 044A3B98
+wget -q -O - http://dano.cu.cc/1Aci9Qp | sudo apt-key add - && sudo apt-get update
+sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F2A61FE5
+wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 614C4B38
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+wget -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+wget http://www.webmin.com/jcameron-key.asc -O- | sudo apt-key add -
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4C9D234C
+curl -fsSL https://apt.dockerproject.org/gpg | sudo apt-key add -
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xF1656F24C74CD1D8
+wget https://nginx.org/keys/nginx_signing.key && apt-key add nginx_signing.key
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -

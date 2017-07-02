@@ -1,0 +1,100 @@
+#------------------------------------------------------------------------------#
+#                      UNOFFICIAL  REPOS
+#------------------------------------------------------------------------------#
+
+###### 3rd Party Binary Repos
+###Docker
+#deb https://apt.dockerproject.org/repo/debian stretch main
+
+###MariaDB
+deb [arch=i386,amd64] http://mirror.23media.de/mariadb/repo/10.2/debian stretch main
+deb-src [arch=i386,amd64] http://mirror.23media.de/mariadb/repo/10.2/debian stretch main
+
+###nginx
+deb [arch=amd64,i386] http://nginx.org/packages/debian/ stretch nginx
+deb-src [arch=amd64,i386] http://nginx.org/packages/debian/ stretch nginx
+
+###PostgreSQL
+deb [arch=amd64,i386] http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main
+
+#------------------------------------------------------------------------------#
+#                           UNOFFICIAL UBUNTU REPOS                            #
+#------------------------------------------------------------------------------#
+
+
+###### 3rd Party Binary Repos
+
+#### Boomaga PPA - https://launchpad.net/~boomaga/+archive/ubuntu/ppa
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C6DAEA80
+deb http://ppa.launchpad.net/boomaga/ppa/ubuntu xenial main
+
+#### Clementine PPA - http://www.clementine-player.org/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 044A3B98
+deb http://ppa.launchpad.net/me-davidsansome/clementine-dev/ubuntu xenial main
+
+#### Dropbox PPA - http://dropbox.com
+## Run this command: sudo apt-key adv --keyserver pgp.mit.edu --recv-keys 5044912E
+deb http://linux.dropbox.com/ubuntu/ xenial main
+
+#### Flacon PPA - http://kde-apps.org/content/show.php?content=113388
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F2A61FE5
+deb http://ppa.launchpad.net/flacon/ppa/ubuntu xenial main
+
+#### GetDeb - http://www.getdeb.net
+## Run this command: wget -q -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+deb http://archive.getdeb.net/ubuntu xenial-getdeb apps
+
+#### Gimp PPA - https://launchpad.net/~otto-kesselgulasch/+archive/gimp
+## Run this command: sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 614C4B38
+deb http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu xenial main
+
+#### Oracle Java (JDK) Installer PPA - http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+deb http://ppa.launchpad.net/webupd8team/java/ubuntu vivid main
+
+#### PlayDeb - http://www.playdeb.net/
+## Run this command: wget -O- http://archive.getdeb.net/getdeb-archive.key | sudo apt-key add -
+deb http://archive.getdeb.net/ubuntu xenial-getdeb games
+
+#### Webmin - http://www.webmin.com
+## Run this command: wget http://www.webmin.com/jcameron-key.asc -O- | sudo apt-key add -
+deb http://download.webmin.com/download/repository sarge contrib
+
+#### WebUpd8 PPA - http://www.webupd8.org/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4C9D234C
+deb http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial main
+
+#### WebUpd8 Unstable PPA - http://www.webupd8.org/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+deb http://ppa.launchpad.net/webupd8team/unstable/ubuntu xenial main
+
+
+####### 3rd Party Source Repos
+
+#### Boomaga PPA (Source) - https://launchpad.net/~boomaga/+archive/ubuntu/ppa
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C6DAEA80
+deb-src http://ppa.launchpad.net/boomaga/ppa/ubuntu xenial main
+
+#### Clementine PPA (Source) - http://www.clementine-player.org/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 044A3B98
+deb-src http://ppa.launchpad.net/me-davidsansome/clementine-dev/ubuntu xenial main
+
+#### Flacon PPA (Source) - http://kde-apps.org/content/show.php?content=113388
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F2A61FE5
+deb-src http://ppa.launchpad.net/flacon/ppa/ubuntu xenial main
+
+#### Gimp PPA (Source) - https://launchpad.net/~otto-kesselgulasch/+archive/gimp
+## Run this command: sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 614C4B38
+deb-src http://ppa.launchpad.net/otto-kesselgulasch/gimp/ubuntu xenial main
+
+#### Oracle Java (JDK) Installer PPA (Source) - http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu vivid main
+
+#### WebUpd8 PPA (Source) - http://www.webupd8.org/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4C9D234C
+deb-src http://ppa.launchpad.net/nilarimogard/webupd8/ubuntu xenial main
+
+#### WebUpd8 Unstable PPA (Source) - http://www.webupd8.org/
+## Run this command: sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EEA14886
+deb-src http://ppa.launchpad.net/webupd8team/unstable/ubuntu xenial main
